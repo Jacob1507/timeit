@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+*.egg
+*.log
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Testing
+htmlcov/
+.coverage
+.tox/
+pytest_cache/
+
+# mypy / linting / type check
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Build / packaging
+build/
+dist/
+*.wheel
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FastAPI-related
+instance/
+*.sqlite3
+
+# Local development
+*.db
+*.sqlite
+*.log
+
+# Coverage reports
+coverage.xml
+.cache/
+
+# pyproject/pip tools
+pip-wheel-metadata/
+__pypackages__/
+
+# Task runners
+celerybeat-schedule
